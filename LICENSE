@@ -1,6 +1,17 @@
+# Dual License Agreement
+
+This repository (**C-Programming-Mastery**) is dual-licensed under two separate licenses to foster open learning while protecting original educational assets and visual documentation from plagiarism, re-branding, and unauthorized commercial redistribution.
+
+---
+
+## 1. C Source Code & Software Snippets — MIT License
+
+All C source code files (`*.c`, `*.h`), compilation scripts, build configurations, and code snippets contained within this repository are licensed under the **MIT License**.
+
+```text
 MIT License
 
-Copyright (c) 2026
+Copyright (c) 2026 Immanueal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +30,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+---
+
+## 2. Educational Content, Visual Cheat Sheets, PDFs & Media — CC BY-NC-ND 4.0
+
+All non-code educational assets—including written theoretical explanations, markdown documentation files (`*.md`), visual cheat sheets (`*.png`, `*.jpg`), diagrams, flowcharts, and compiled PDF visual notes (`*.pdf`)—are licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
+
+### Summary of CC BY-NC-ND 4.0 Terms:
+
+- 👤 **Attribution (BY)**: You must give appropriate credit to the original author (**Immanueal**), provide a link to this repository, and indicate if changes were made.
+- 🚫 **NonCommercial (NC)**: You may not use the material for commercial purposes or monetization without explicit written consent from the author.
+- 🛑 **NoDerivatives (ND)**: If you remix, transform, or build upon the material, you may not distribute the modified material.
+- ❌ **No Plagiarism / Re-branding**: You may not copy, rebrand, or present these visual cheat sheets, diagrams, or educational notes as your own work.
+
+To view a full copy of this license, visit [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/).

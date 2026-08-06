@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you reference or use this repository for educational research, study, or curriculum work, please cite it as below."
+title: "C Programming Mastery: A Comprehensive Topic-Wise C Curriculum & Visual Guide"
+abstract: "A structured, portfolio-grade open-source repository featuring C programming theory, visual cheat sheets, graduated practice problems, real-world software projects, data structures, and interview preparation."
+authors:
+  - family-names: "Immanueal"
+    given-names: "Krishna"
+repository-code: "https://github.com/Immanueal1/C-programming-Mastery"
+url: "https://github.com/Immanueal1/C-programming-Mastery"
+keywords:
+  - "c-programming"
+  - "systems-programming"
+  - "computer-science"
+  - "data-structures"
+  - "algorithms"
+  - "visual-cheat-sheets"
+  - "interview-preparation"
+license: "MIT AND CC-BY-NC-ND-4.0"
+date-released: "2026-08-06"
+version: "1.0.0"
