@@ -4,19 +4,19 @@
 
 ---
 
-## Chapter Overview
+## 📌 Chapter Overview
 
-This chapter serves as your entry point into the C language. You will explore how C programs compile and execute, how data is stored in computer memory using variables and constants, and how to interact with users via standard input and output streams. Designed for quick scanning and hands-on practice, this chapter lays the groundwork required for writing clean, efficient low-level software.
+This chapter serves as your entry point into the C language. You will explore how C programs compile and execute, how data is stored in computer memory using variables and constants, and how to interact with users via standard input and output streams.
 
 ### Introduction to C
 
-C is a general-purpose, procedural programming language developed by Dennis Ritchie at Bell Labs. It is widely used for systems programming, operating systems (like Linux and Windows kernels), embedded systems, compilers, and high-performance applications.
+C is a general-purpose, procedural programming language developed by Dennis Ritchie at Bell Labs. It is widely used for systems programming, operating systems (like Linux and Windows kernels), embedded systems, compilers, and high-performance software.
 
-C gives direct access to memory, which makes it fast and efficient, helping programmers understand how computers work under the hood—knowledge that carries over into almost every modern language.
+C gives direct access to computer memory, which makes it exceptionally fast and efficient, helping programmers understand how hardware works under the hood—knowledge that carries over into almost every modern programming language.
 
 ---
 
-## Chapter Information
+## ℹ️ Chapter Information
 
 | Metadata | Details |
 | :--- | :--- |
@@ -28,7 +28,7 @@ C gives direct access to memory, which makes it fast and efficient, helping prog
 
 ---
 
-## Topics Covered
+## 📚 Topics Covered
 
 - [x] Setup & Compilation Architecture
 - [x] Anatomy of a C Program
@@ -43,11 +43,11 @@ C gives direct access to memory, which makes it fast and efficient, helping prog
 
 ---
 
-## 📖 Chapter Theory
+## 📖 Complete Chapter Theory
 
 ### 1. Setup & Compilation Architecture
 
-Before a C program can execute, it passes through distinct stages:
+Before a C program can execute, it passes through three distinct stages:
 
 | Stage | Tool | Description |
 | :--- | :--- | :--- |
@@ -272,9 +272,34 @@ Access the practice problem folders directly by clicking on the links below:
 
 | Difficulty Level | Folder Link | Description |
 | :--- | :--- | :--- |
-| 🟢 **Easy** | 📂 **[Browse Easy Programs](./easy/)** | Fundamental programs covering core syntax, basic `printf`/`scanf`, and data types. |
-| 🟡 **Medium** | 📂 **[Browse Medium Programs](./medium/)** | Intermediate programs focusing on formatting, conversions, and variable swaps. |
-| 🔴 **Hard** | 📂 **[Browse Hard Programs](./hard/)** | Advanced programs exploring memory addresses (`%p`), chained inputs, and `const` limits. |
+| 🟢 **Easy** | 📂 **[Browse Easy Programs (`easy/`)](./easy/)** | Fundamental programs covering core syntax, basic `printf`/`scanf`, and data types. |
+| 🟡 **Medium** | 📂 **[Browse Medium Programs (`medium/`)](./medium/)** | Intermediate programs focusing on formatting, conversions, and variable swaps. |
+| 🔴 **Hard** | 📂 **[Browse Hard Programs (`hard/`)](./hard/)** | Advanced programs exploring memory addresses (`%p`), chained inputs, and `const` limits. |
+
+---
+
+## 💡 Interview Preparation
+
+Access interview resources directly:
+
+| Section | Link | Description |
+| :--- | :--- | :--- |
+| ❓ **Technical Theory** | 📄 **[View Theory Questions (`interview/THEORY.md`)](./interview/THEORY.md)** | Core technical interview questions covering compilers, RAM, format specifiers, and ampersands. |
+| 🔮 **Output Prediction** | 📄 **[View Output Predictions (`interview/OUTPUT_PREDICTION.md`)](./interview/OUTPUT_PREDICTION.md)** | Code snippets testing output evaluation, truncation, and escape sequences. |
+| 🐞 **Debugging Challenges** | 📄 **[View Debugging Exercises (`interview/DEBUGGING.md`)](./interview/DEBUGGING.md)** | Syntax error and logical bug detection exercises. |
+| 📝 **MCQs** | 📄 **[View MCQs (`interview/MCQs.md`)](./interview/MCQs.md)** | Multiple-choice practice questions. |
+
+---
+
+## 🛠️ Portfolio Mini Projects
+
+Browse hands-on mini projects in the [`projects/`](./projects/) directory:
+
+- 🧾 **[01 TCS Digital Candidate Profile Generator](./projects/01_TCS_Digital_Candidate_Profile/)**
+- 🔬 **[02 NIR Sensor Calibration Report](./projects/02_NIR_Sensor_Calibration_Report/)**
+- 🏋️ **[03 Workout Log Formatter](./projects/03_Workout_Log_Formatter/)**
+- 🔌 **[04 PCB Component Bill Estimator](./projects/04_PCB_Component_Bill/)**
+- 🎓 **[05 Tutoring Academy Fee Receipt System](./projects/05_Tutoring_Fee_Receipt/)**
 
 ---
 
@@ -285,17 +310,6 @@ Access the practice problem folders directly by clicking on the links below:
 - **Mismatched Format Specifiers**: Using `%d` for a `float` or `%f` for an `int` causes corrupted output.
 - **Uninitialized Variables**: Reading a variable before assigning a value results in unpredictable garbage values.
 - **Case-Sensitivity Errors**: Writing `Printf` or `Main` instead of lowercase `printf` and `main`.
-
----
-
-## 🛠️ Mini Project
-
-### 🧾 Personal Data Card & Billing Receipt Generator
-
-Create an interactive console application that prompts the user for student or product details, calculates total charges with constants, and prints a formatted, aligned text receipt.
-
-- **Concepts Used**: `printf`, `scanf`, `int`, `float`, `char`, `#define` constants, format specifiers, comments.
-- **Difficulty**: 🟢 Beginner
 
 ---
 
