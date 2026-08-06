@@ -1,0 +1,29 @@
+# Compiled Executables and Object Files
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+
+# Debug Information
+*.dSYM/
+*.pdb
+*.ilk
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Build & Temporary Directories
+build/
+bin/
+obj/
+dist/
+scratch/
