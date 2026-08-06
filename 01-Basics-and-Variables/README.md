@@ -17,8 +17,8 @@ This chapter serves as your entry point into the C language. You will explore ho
 | **Difficulty** | 🟢 Beginner |
 | **Prerequisite** | None (Starting Chapter) |
 | **Estimated Time** | ~2–3 Hours |
-| **Programs Count** | 14 Practice Problems |
-| **Visual Cheat Sheet** | Included (`./images/cheat-sheet.png`) |
+| **Practice Directories** | [`easy/`](./easy/), [`medium/`](./medium/), [`hard/`](./hard/) |
+| **Visual Cheat Sheet** | Included ([View Image](./images/C%20programming%20Visual%20Notes_watermark_page-0001.jpg)) |
 
 ---
 
@@ -39,7 +39,7 @@ This chapter serves as your entry point into the C language. You will explore ho
 
 ## Visual Cheat Sheet
 
-![Chapter 1 Cheat Sheet](./images/cheat-sheet.png)
+![Chapter 1 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0001.jpg)
 
 > 💡 **Note**: The complete, high-resolution master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf) (or [`C programming Visual Notes_watermark.pdf`](../C%20programming%20Visual%20Notes_watermark.pdf)).
 
@@ -47,34 +47,13 @@ This chapter serves as your entry point into the C language. You will explore ho
 
 ## Practice Programs
 
-### 🟢 Easy Programs
+Access the practice problem folders directly by clicking on the links below:
 
-| No. | Program | Status |
-| :---: | :--- | :---: |
-| 01 | **Hello World**: Print basic output using `printf()` | ⬜ |
-| 02 | **Variable Printing**: Declare and print `int`, `float`, and `char` variables | ⬜ |
-| 03 | **User Input**: Read integer and float values using `scanf()` | ⬜ |
-| 04 | **Data Type Sizes**: Print memory sizes of primitive data types using `sizeof` | ⬜ |
-| 05 | **Format Specifier Demo**: Display numbers with precision control (`%.2f`, `%05d`) | ⬜ |
-
-### 🟡 Medium Programs
-
-| No. | Program | Status |
-| :---: | :--- | :---: |
-| 01 | **Formatted Store Receipt**: Align text and numeric columns using field width specifiers | ⬜ |
-| 02 | **Temperature Converter**: Convert Celsius to Fahrenheit using variables and arithmetic | ⬜ |
-| 03 | **ASCII Value Explorer**: Input a character and print its decimal ASCII code (and vice versa) | ⬜ |
-| 04 | **Variable Swapper**: Swap two variable values using a temporary third variable | ⬜ |
-| 05 | **Circle Calculator**: Calculate area and circumference using `#define PI 3.14159` constant | ⬜ |
-
-### 🔴 Hard Programs
-
-| No. | Program | Status |
-| :---: | :--- | :---: |
-| 01 | **Memory Address Tracker**: Print memory addresses of variables using `%p` and address operator `&` | ⬜ |
-| 02 | **In-Place Swap**: Swap two integer variables without using an extra temporary variable | ⬜ |
-| 03 | **Chained Input Buffer**: Parse multiple space-separated variables in a single `scanf()` call | ⬜ |
-| 04 | **Const Mutation Guard**: Demonstrate compiler error behavior when attempting to modify a `const` variable | ⬜ |
+| Difficulty Level | Folder Link | Description |
+| :--- | :--- | :--- |
+| 🟢 **Easy** | 📂 **[Browse Easy Programs](./easy/)** | Fundamental programs covering core syntax, basic `printf`/`scanf`, and data types. |
+| 🟡 **Medium** | 📂 **[Browse Medium Programs](./medium/)** | Intermediate programs focusing on formatting, conversions, and variable swaps. |
+| 🔴 **Hard** | 📂 **[Browse Hard Programs](./hard/)** | Advanced programs exploring memory addresses (`%p`), chained inputs, and `const` limits. |
 
 ---
 
