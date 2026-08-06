@@ -1,5 +1,11 @@
 # C Programming Mastery
 
+<p align="center">
+  <img src="assets/me_coding.gif" alt="C Programming Mastery - Me Coding" width="100%">
+  <br>
+  <b>⚡ C Programming Mastery</b>
+</p>
+
 A comprehensive, structured roadmap and resource repository for mastering C programming, from fundamentals to advanced concepts, Data Structures & Algorithms, real-world projects, and interview preparation.
 
 > 🚧 **Work in Progress** — This repository is actively under development.
@@ -60,3 +66,11 @@ C-Programming-Mastery/
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 💻 Developer Setup & Workspace
+
+<p align="center">
+  <img src="assets/coding_workspace.png" alt="Developer Workspace" width="100%">
+</p>
