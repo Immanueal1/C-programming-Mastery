@@ -4,25 +4,40 @@
 
 ---
 
-## 📌 Section Overview
+## 📌 Short Description
 
-This directory contains 10 fundamental problems designed to build confidence with decision-making logic, relational comparisons, equality checking, and simple branching constructs.
+This folder contains 10 fundamental practice problems designed to build core confidence with decision-making logic, relational comparisons, equality checking, ternary syntax, and simple branching constructs without complex math or loops.
+
+---
+
+## 📚 Topics Covered
+
+- [x] Simple `if` Statement & Threshold Checking
+- [x] Binary Decision Branching with `if-else`
+- [x] Relational Comparison Operators (`>`, `>=`, `==`)
+- [x] Modulo Parity Check (`% 2 == 0`)
+- [x] Shorthand Ternary Expressions (`? :`)
+- [x] Cascading `else-if` Ladders
+- [x] Assignment Trap (`if (status = 1)` vs `if (status == 1)`)
+- [x] `switch` Statement & Case Fall-Through
+- [x] Nested `if` Structures & Logical NOT (`!`)
+- [x] Statement Block Scoping with Curly Braces `{}`
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Use simple `if` statements for single threshold conditions.
-- Execute binary decision branching using `if-else`.
-- Implement shorthand conditional expressions via ternary operators (`? :`).
-- Build multi-branch decision trees using `else-if` ladders.
-- Avoid the `=` vs `==` comparison trap and enforce scope with curly braces `{}`.
+- Apply simple `if` conditions for single threshold checks.
+- Execute binary decision logic using standard `if-else` blocks.
+- Construct inline shorthand conditional statements using ternary operators.
+- Implement multi-branch decision ladders for range evaluations.
+- Prevent common equality assignment bugs and enforce scope using curly braces `{}`.
 
 ---
 
-## 📁 Directory Contents
+## 📁 Folder Contents
 
-| File | Title | Key Concepts |
+| File | Title | Concepts Used |
 | :--- | :--- | :--- |
 | [`01_the_threshold_check.c`](./01_the_threshold_check.c) | The Threshold Check | Simple `if`, Relational Operators |
 | [`02_parity_analyzer.c`](./02_parity_analyzer.c) | Parity Analyzer | `if-else`, Modulo Operator (`%`) |
@@ -37,7 +52,9 @@ This directory contains 10 fundamental problems designed to build confidence wit
 
 ---
 
-## 🔗 Quick Links
+## 🔗 Navigation Links
 
-- 📋 **[View Complete Practice Problem Statements (`PRACTICE.md`)](./PRACTICE.md)**
-- 🏠 **[Chapter 3 Root Overview](../README.md)**
+- 📋 **[View Practice Problem Workbook (`PRACTICE.md`)](./PRACTICE.md)**
+- 🟡 **[Proceed to Medium Practice (`../medium/`)](../medium/)**
+- 🔴 **[Proceed to Hard Practice (`../hard/`)](../hard/)**
+- 🏠 **[Return to Chapter 3 Overview (`../README.md`)](../README.md)**

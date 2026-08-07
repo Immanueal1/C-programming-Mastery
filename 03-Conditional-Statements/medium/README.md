@@ -4,25 +4,40 @@
 
 ---
 
-## 📌 Section Overview
+## 📌 Short Description
 
-This directory contains 10 intermediate problems designed to sharpen condition composition, boundary handling, ASCII classification, and `switch` menu implementations.
+This folder contains 10 intermediate practice problems designed to sharpen multi-variable condition evaluation, boundary range checks, ASCII character classification, and interactive `switch` menu implementations.
+
+---
+
+## 📚 Topics Covered
+
+- [x] Multi-Variable Logic with Logical AND (`&&`)
+- [x] Placement Cutoff Eligibility with Compound Conditions
+- [x] Leap Year Evaluation Rules (Divisibility by 4, 100, 400)
+- [x] Cascading Grade Cutoff `else-if` Ladders
+- [x] Interactive `switch` Calculators with Input Operators
+- [x] Floating-Point BMI Boundary Calculations
+- [x] Character Classification via ASCII Ranges (`A-Z`, `a-z`, `0-9`)
+- [x] Triangle Angle Validation & Equilateral/Right-Angle Rules
+- [x] `switch` Case Stacking and Intentional Fall-Through
+- [x] 2D Cartesian Coordinate Plane Quadrant & Axis Checker
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Combine multiple conditions using logical AND (`&&`) and logical OR (`||`).
-- Construct cascading `else-if` ladders for academic grading and BMI categorization.
-- Implement leap year rules combining divisibility by 4, 100, and 400.
-- Execute arithmetic operations via `switch` statements with division-by-zero protection.
-- Classify character ASCII ranges (`A-Z`, `a-z`, `0-9`, special characters).
+- Combine multiple relational checks cleanly using logical AND (`&&`) and OR (`||`).
+- Utilize top-down `else-if` execution to simplify numeric range grading.
+- Implement `switch` statements for multi-way operation menus and month day lookups.
+- Perform precise float comparisons for BMI categorization.
+- Evaluate character ASCII boundaries directly using relational syntax (`ch >= 'A'`).
 
 ---
 
-## 📁 Directory Contents
+## 📁 Folder Contents
 
-| File | Title | Key Concepts |
+| File | Title | Concepts Used |
 | :--- | :--- | :--- |
 | [`11_largest_of_three.c`](./11_largest_of_three.c) | Largest of Three | Logical AND (`&&`), `else-if` |
 | [`12_digital_selection_cutoff.c`](./12_digital_selection_cutoff.c) | Digital Selection Cutoff | Multiple Logical Conditions |
@@ -37,7 +52,9 @@ This directory contains 10 intermediate problems designed to sharpen condition c
 
 ---
 
-## 🔗 Quick Links
+## 🔗 Navigation Links
 
-- 📋 **[View Complete Practice Problem Statements (`PRACTICE.md`)](./PRACTICE.md)**
-- 🏠 **[Chapter 3 Root Overview](../README.md)**
+- 📋 **[View Practice Problem Workbook (`PRACTICE.md`)](./PRACTICE.md)**
+- 🟢 **[Return to Easy Practice (`../easy/`)](../easy/)**
+- 🔴 **[Proceed to Hard Practice (`../hard/`)](../hard/)**
+- 🏠 **[Return to Chapter 3 Overview (`../README.md`)](../README.md)**

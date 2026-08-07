@@ -1,10 +1,41 @@
-# 💡 Chapter 3 Interview Preparation
+# 💡 Chapter 3: Interview Preparation
 
 > Technical interview questions, conceptual theory, debugging snippets, output prediction exercises, and multiple-choice questions focusing on Chapter 3: Conditional Statements.
 
 ---
 
-## 📌 Directory Structure
+## 📌 Short Description
+
+This module provides targeted placement and interview preparation materials covering common C decision-making traps, fall-through mechanics, equality vs assignment errors, operator short-circuiting, and dangling else ambiguities.
+
+---
+
+## 📚 Topics Covered
+
+- [x] Differences between `if-else` Ladders and `switch` Statements
+- [x] Switch Case Fall-Through Behavior & Memory Mechanics
+- [x] The Assignment Trap (`if (x = 5)`) & Non-Zero Memory Truth Evaluation
+- [x] Allowed vs Prohibited Data Types in `switch` Case Labels
+- [x] Single-Statement Scope Traps & Curly Braces `{}` Rules
+- [x] Placement & Rules for `default` Cases in `switch` Blocks
+- [x] Ternary Operator (`? :`) Limitations vs `if-else` Blocks
+- [x] Short-Circuit Evaluation in Logical AND (`&&`) & Logical OR (`||`)
+- [x] Nesting Rules (`switch` inside `if` & `if` inside `switch`)
+- [x] The Dangling Else Problem & Compiler Scoping Resolution
+
+---
+
+## 🎯 Learning Objectives
+
+- Explain the memory mechanics of `if(x = 5)` and non-zero truth values to interviewers.
+- Debug missing `break` statements and identify fall-through output bugs.
+- Recognize illegal case label types (floats, strings, variables) in `switch` blocks.
+- Predict exact console outputs for post-increment conditions and ternary returns.
+- Solve technical MCQs testing short-circuiting and conditional operator rules.
+
+---
+
+## 📁 Folder Contents
 
 | File | Description | Target Skills |
 | :--- | :--- | :--- |
@@ -15,16 +46,9 @@
 
 ---
 
-## 🎯 How to Use This Section
+## 🔗 Navigation Links
 
-1. Review the theory questions in [`THEORY.md`](./THEORY.md) and practice explaining the concepts verbally as if in a technical interview.
-2. Predict code outputs in [`OUTPUT_PREDICTION.md`](./OUTPUT_PREDICTION.md) before compiling the snippets.
-3. Identify syntax and logical flaws in [`DEBUGGING.md`](./DEBUGGING.md) to hone visual auditing skills.
-4. Test your conceptual retention using the multiple-choice questions in [`MCQs.md`](./MCQs.md).
-
----
-
-## 🔗 Quick Links
-
-- 🟢 **[Easy Practice](../easy/)** \| 🟡 **[Medium Practice](../medium/)** \| 🔴 **[Hard Practice](../hard/)**
-- 🏠 **[Chapter 3 Root Overview](../README.md)**
+- 🟢 **[Easy Practice (`../easy/`)](../easy/)**
+- 🟡 **[Medium Practice (`../medium/`)](../medium/)**
+- 🔴 **[Hard Practice (`../hard/`)](../hard/)**
+- 🏠 **[Return to Chapter 3 Overview (`../README.md`)](../README.md)**

@@ -4,25 +4,40 @@
 
 ---
 
-## 📌 Section Overview
+## 📌 Short Description
 
-This directory contains 10 advanced problems designed to test complex conditional architecture, nested state machines, priority flags, and boundary calculations without using loops.
+This folder contains 10 advanced practice problems designed to test multi-tiered calculations, transactional state machines, priority logical flags, 4-variable ternary algorithms, spatial segment overlaps, and full date validation logic.
+
+---
+
+## 📚 Topics Covered
+
+- [x] Multi-Tiered Progressive Rate Calculations & Tax Surcharges
+- [x] Transactional Error Pipeline Guards (ATM State Machine)
+- [x] Industrial Resistor Component Tolerance Range Mapping
+- [x] Time Duration Categorization & Anime Binge Synthesis
+- [x] 4-Variable Max Determination via Pure Nested Ternary (`? :`)
+- [x] Hospital Patient Symptom Priority Logic Flags (Code Red / Urgent)
+- [x] Tiered Progressive Income Tax Slab Calculations
+- [x] Embedded Device Control (`switch` inside `if` Power States)
+- [x] 1D Line Segment Spatial Overlap Conditions
+- [x] Full Calendar Date Validation (Days, Months & Leap Year February)
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Implement multi-tiered progressive calculation algorithms (electricity & income tax).
-- Build layered error validation pipelines for transactional systems (ATM machines).
-- Map hardware tolerances and industrial resistor specifications to discrete bands.
-- Construct complex boolean priority flags for triage systems and 1D line overlaps.
-- Validate calendar dates considering month lengths and leap year rules.
+- Implement progressive slab logic for utility bills and income tax calculators.
+- Process transaction guards in strict priority order to prevent invalid operations.
+- Construct complex priority flags combining AND, OR, and XOR logical conditions.
+- Find absolute maximums across four variables using nested ternary operators without `if` or `switch`.
+- Validate spatial overlaps and real-world date ranges accounting for leap year February limits.
 
 ---
 
-## 📁 Directory Contents
+## 📁 Folder Contents
 
-| File | Title | Key Concepts |
+| File | Title | Concepts Used |
 | :--- | :--- | :--- |
 | [`21_bhilai_power_grid_tariff.c`](./21_bhilai_power_grid_tariff.c) | Bhilai Power Grid Tariff | Tiered Calculation, Nested Logic |
 | [`22_atm_withdrawal_state_machine.c`](./22_atm_withdrawal_state_machine.c) | ATM Withdrawal State Machine | Deep Nested `if` |
@@ -37,7 +52,9 @@ This directory contains 10 advanced problems designed to test complex conditiona
 
 ---
 
-## 🔗 Quick Links
+## 🔗 Navigation Links
 
-- 📋 **[View Complete Practice Problem Statements (`PRACTICE.md`)](./PRACTICE.md)**
-- 🏠 **[Chapter 3 Root Overview](../README.md)**
+- 📋 **[View Practice Problem Workbook (`PRACTICE.md`)](./PRACTICE.md)**
+- 🟢 **[Return to Easy Practice (`../easy/`)](../easy/)**
+- 🟡 **[Return to Medium Practice (`../medium/`)](../medium/)**
+- 🏠 **[Return to Chapter 3 Overview (`../README.md`)](../README.md)**
