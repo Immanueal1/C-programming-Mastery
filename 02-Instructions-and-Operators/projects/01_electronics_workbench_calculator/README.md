@@ -1,14 +1,39 @@
-# 🔌 Project 01: Electronics Workbench Calculator
+# ⚡ Project 01: Electronics Workbench Calculator
 
-## Description
-Read Voltage ($V$) and Resistance ($R$). Calculate Current ($I = V / R$) and Power Dissipation ($P = V^2 / R$). Use `<math.h>` for squaring.
+> An electrical engineering workbench tool calculating Current ($I$) and Power Dissipation ($P$) from Voltage and Resistance.
 
-## Concepts Used
-- Floating-point division
-- Exponentiation via `pow(V, 2.0)`
-- Formula evaluation & precedence
-- Formatted float output
+---
 
-## Folder Contents
-- `README.md`: Project specifications.
-- `main.c`: Starter source code file.
+## 📌 Short Description
+
+Read Voltage ($V$) and Resistance ($R$) as floating-point numbers. Calculate Current using Ohm's Law ($I = V / R$) and Power Dissipation using $P = V^2 / R$. Use `pow()` from `<math.h>` for squaring values.
+
+---
+
+## 📚 Topics Covered
+
+- [x] Ohm's Law & Power Dissipation Formulas
+- [x] Math Library Function Usage (`pow()`)
+- [x] Floating-Point Input and Output Precision Handling
+
+---
+
+## 🎯 Learning Objectives
+
+- Apply basic electrical engineering formulas in C.
+- Include and compile with `<math.h>` for mathematical functions.
+- Format floating-point outputs to 2 decimal places.
+
+---
+
+## 📁 Folder Contents
+
+- `README.md`: Project specifications and guidelines.
+- `main.c`: Starter source code file (contains empty template).
+
+---
+
+## 🔗 Navigation Links
+
+- 🛠️ **[Return to Projects Index (`../`)](../README.md)**
+- 🏠 **[Return to Chapter 2 Overview (`../../README.md`)](../../README.md)**
