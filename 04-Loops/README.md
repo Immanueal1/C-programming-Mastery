@@ -39,6 +39,7 @@ This chapter covers the three primary loop constructs (`for`, `while`, `do-while
 - [x] The `break` Statement & Innermost Loop Termination Trap
 - [x] The `continue` Statement & Iteration Skipping
 - [x] `break` vs. `continue` Comparison Matrix
+- [x] Common Loop Traps & Mistakes ⚠️
 
 ---
 
@@ -370,6 +371,16 @@ for (int i = 1; i <= 10; i++)
 
 ---
 
+### 13. Common Loop Traps & Mistakes ⚠️
+
+1. **Missing Semicolon in `do-while`**: Omitting `;` after `while(condition)` causes a compilation error.
+2. **Trailing Semicolon after `for` or `while`**: Writing `for(i=0; i<5; i++);` isolates the body and creates a logic bug.
+3. **Infinite Loop Trap**: Forgetting to update the iterator variable inside `while` or `do-while` bodies.
+4. **Floating-Point Equality Trap**: Writing `f != 1.0` with `float` iterators fails due to binary representation anomalies. Always use `<=` or `>=`.
+5. **Short-Circuiting in Loop Conditions**: Expressions like `while(a-- > 0 && ++b < 5)` bypass `++b` if `a-- > 0` evaluates to false.
+
+---
+
 ## 🎨 Visual Cheat Sheet
 
 ![Chapter 4 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0004.jpg)
@@ -400,7 +411,6 @@ while (condition)
 
 ### `do-while` Loop
 ```c
-initialization;
 do
 {
     // Body / Work
