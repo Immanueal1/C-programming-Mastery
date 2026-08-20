@@ -994,6 +994,37 @@ int main() {
 
 ---
 
+### 61. Operating System File Buffering & Internal Architecture
+
+When a C program opens a file via `fopen()`, the C standard library (`libc`) allocates a stream buffer in memory (`BUFSIZ`, typically 4096 or 8192 bytes).
+
+```text
++-----------------------------------------------------------------------+
+|                             USER SPACE                                |
+|  C Program Variables  --->  FILE *fptr (Buffering Layer: 4KB/8KB)     |
++-----------------------------------------------------------------------+
+                                   | (fflush / fclose / Buffer Full)
+                                   v
++-----------------------------------------------------------------------+
+|                            KERNEL SPACE                               |
+|  Virtual File System (VFS) ---> OS Page Cache ---> Disk Device Driver |
++-----------------------------------------------------------------------+
+                                   | (Physical Block Allocation)
+                                   v
++-----------------------------------------------------------------------+
+|                          HARDWARE STORAGE                             |
+|              NVMe SSD / HDD Physical Storage Blocks                   |
++-----------------------------------------------------------------------+
+```
+
+#### Why Buffering Matters:
+1. **Performance**: Disk I/O operations are thousands of times slower than RAM operations. Writing 1000 characters one-by-one directly to disk would require 1000 disk access operations.
+2. **Batching**: C buffers data in RAM until the stream buffer is full, then writes all bytes in a single hardware block transfer.
+3. **Flushing (`fflush()`)**: Calling `fflush(fptr)` or `fclose(fptr)` forces any unwritten cached bytes in the RAM stream buffer to be flushed through kernel VFS down to non-volatile disk blocks.
+
+---
+
+
 ## 🎨 Visual Cheat Sheet
 
 ![Chapter 10 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0010.jpg)
