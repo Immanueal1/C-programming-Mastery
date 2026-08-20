@@ -1024,6 +1024,40 @@ When a C program opens a file via `fopen()`, the C standard library (`libc`) all
 
 ---
 
+### 62. Advanced File Positioning & Update Modes
+
+C provides special file positioning functions to navigate randomly within open files without reading linearly from start to finish:
+
+#### 1. File Update Modes:
+- **`"r+"`** ➜ Open for reading and writing. File must exist.
+- **`"w+"`** ➜ Open for reading and writing. Overwrites existing contents or creates a new file.
+- **`"a+"`** ➜ Open for reading and appending. Reading starts from current position, but all writes are appended at the end.
+
+#### 2. Random Access Navigation Functions:
+
+| Function | Syntax | Purpose |
+| :--- | :--- | :--- |
+| **`ftell()`** | `long pos = ftell(fptr);` | Returns current byte position of file pointer from start of file |
+| **`rewind()`** | `rewind(fptr);` | Resets file pointer back to byte offset 0 (start of file) |
+| **`fseek()`** | `fseek(fptr, offset, origin);` | Moves file pointer to specific byte location |
+
+#### `fseek()` Origin Constants:
+- **`SEEK_SET`** ➜ Seek offset relative to **Beginning of File**.
+- **`SEEK_CUR`** ➜ Seek offset relative to **Current Pointer Position**.
+- **`SEEK_END`** ➜ Seek offset relative to **End of File**.
+
+```c
+// Example: Moving to byte 10 from beginning of file
+fseek(fptr, 10, SEEK_SET);
+
+// Example: Moving to end of file to determine file size
+fseek(fptr, 0, SEEK_END);
+long fileSize = ftell(fptr);
+```
+
+---
+
+
 
 ## 🎨 Visual Cheat Sheet
 
