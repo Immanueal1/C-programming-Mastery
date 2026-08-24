@@ -65,6 +65,14 @@ This chapter covers the complete mechanics of C strings: character array memory 
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 8 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0008.jpg)
+
+> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. What Is a String?
@@ -771,14 +779,6 @@ C STRINGS
     ├── strcat(dest, src)        ──► Appends src to dest
     └── strcmp(s1, s2)           ──► Compares ASCII contents (0 if equal)
 ```
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 8 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0008.jpg)
-
-> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
 
 ---
 
