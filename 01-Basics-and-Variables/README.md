@@ -43,6 +43,14 @@ C gives direct access to computer memory, which makes it exceptionally fast and 
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 1 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0001.jpg)
+
+> 💡 **Note**: The complete, high-resolution master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf) (or [`C programming Visual Notes_watermark.pdf`](../C%20programming%20Visual%20Notes_watermark.pdf)).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. Setup & Compilation Architecture
@@ -202,14 +210,6 @@ Keywords are **32 reserved words** in C with predefined language meanings (e.g.,
 Non-executable explanatory notes for improving code readability:
 - **Single-Line**: `// comment`
 - **Multi-Line**: `/* comment */`
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 1 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0001.jpg)
-
-> 💡 **Note**: The complete, high-resolution master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf) (or [`C programming Visual Notes_watermark.pdf`](../C%20programming%20Visual%20Notes_watermark.pdf)).
 
 ---
 
