@@ -44,6 +44,14 @@ This chapter covers the complete lifecycle of C functions (Prototype, Definition
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 5 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0005.jpg)
+
+> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. Functions — The Core Idea
@@ -490,14 +498,6 @@ int factorial(int n) {
                                                            ↓
                                                     Stop Recursion
 ```
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 5 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0005.jpg)
-
-> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
 
 ---
 
