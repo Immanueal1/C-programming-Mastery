@@ -79,6 +79,14 @@ This chapter covers the complete mechanics of structures in C: why structures ar
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 9 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0009.jpg)
+
+> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. Why Do We Need Structures?
@@ -1046,14 +1054,6 @@ STRUCTURES
 
 #### Q12: What is the purpose of `typedef` with structures?
 > **Answer**: `typedef` creates a shorter type alias/nickname for a structure type (e.g., `coe s1;` instead of `struct ComputerScienceEngineeringStudent s1;`).
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 9 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0009.jpg)
-
-> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
 
 ---
 
