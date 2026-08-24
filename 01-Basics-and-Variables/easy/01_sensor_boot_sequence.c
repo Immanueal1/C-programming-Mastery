@@ -10,7 +10,7 @@ Difficulty: Easy
 Concepts Used: printf(), Escape Sequences
 
 Problem Statement:
-You are programming an ESP32 microcontroller for a spectroscopy prototype. Write a program that prints a precise boot sequence to the console. The output must span exactly three lines.
+You are programming an ESP32 microcontroller for a prototype. Write a program that prints a precise boot sequence to the console. The output must span exactly three lines.
 
 Source:
 Chapter 1 Practice Workbook
@@ -28,8 +28,9 @@ C-Programming-Mastery
 
 int main()
 {
-    // TODO:
-    // Solve this problem yourself.
+    printf("System Booting...\n\
+Initializing NIR Sensor...\n\
+Ready.\n");
 
     return 0;
 }
