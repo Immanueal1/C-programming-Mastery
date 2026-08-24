@@ -43,6 +43,14 @@ This chapter covers the three primary loop constructs (`for`, `while`, `do-while
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 4 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0004.jpg)
+
+> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. Why Do We Need Loops?
@@ -378,14 +386,6 @@ for (int i = 1; i <= 10; i++)
 3. **Infinite Loop Trap**: Forgetting to update the iterator variable inside `while` or `do-while` bodies.
 4. **Floating-Point Equality Trap**: Writing `f != 1.0` with `float` iterators fails due to binary representation anomalies. Always use `<=` or `>=`.
 5. **Short-Circuiting in Loop Conditions**: Expressions like `while(a-- > 0 && ++b < 5)` bypass `++b` if `a-- > 0` evaluates to false.
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 4 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0004.jpg)
-
-> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
 
 ---
 
