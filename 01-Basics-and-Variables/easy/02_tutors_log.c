@@ -30,6 +30,8 @@ int main()
 {
     // TODO:
     // Solve this problem yourself.
+    int stud = 42;
+    printf("Current academy enrollment: %d students.", stud);
 
     return 0;
 }
