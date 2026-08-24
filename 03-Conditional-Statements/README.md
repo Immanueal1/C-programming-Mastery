@@ -44,6 +44,14 @@ This chapter covers essential decision-making constructs, Boolean evaluation rul
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 3 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0003.jpg)
+
+> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. Introduction to Decision Making
@@ -308,14 +316,6 @@ Acts similarly to the final `else` block in an `else-if` ladder. It executes whe
 | **`else-if`** | `if (m >= 90) ... else if (m >= 80)` | Continuous numeric range grading |
 | **Ternary (`? :`)** | `max = (a > b) ? a : b;` | Compact inline assignments |
 | **`switch-case`** | `switch (ch) { case 'A': ... break; }` | Fixed discrete value options |
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 3 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0003.jpg)
-
-> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
 
 ---
 
