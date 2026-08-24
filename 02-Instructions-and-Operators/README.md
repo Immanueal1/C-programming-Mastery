@@ -45,6 +45,14 @@ After learning how to declare variables and perform basic input/output, the next
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 2 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0002.jpg)
+
+> 💡 **Note**: The complete, high-resolution master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf) (or [`C programming Visual Notes_watermark.pdf`](../C%20programming%20Visual%20Notes_watermark.pdf)).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. Types of Instructions & Declarations
@@ -270,14 +278,6 @@ if (x > 9 && x < 100) {
     printf("2-Digit Number");
 }
 ```
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 2 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0002.jpg)
-
-> 💡 **Note**: The complete, high-resolution master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf) (or [`C programming Visual Notes_watermark.pdf`](../C%20programming%20Visual%20Notes_watermark.pdf)).
 
 ---
 
