@@ -91,6 +91,14 @@ This chapter covers the complete mechanics of File I/O in C: volatile RAM vs. no
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 10 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0010.jpg)
+
+> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. Why Do We Need File I/O?
@@ -1054,16 +1062,6 @@ fseek(fptr, 10, SEEK_SET);
 fseek(fptr, 0, SEEK_END);
 long fileSize = ftell(fptr);
 ```
-
----
-
-
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 10 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0010.jpg)
-
-> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
 
 ---
 
