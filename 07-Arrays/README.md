@@ -54,6 +54,14 @@ This chapter covers the complete mechanics of 1D and 2D arrays in C: array decla
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 7 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0007.jpg)
+
+> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. What Is an Array?
@@ -643,14 +651,6 @@ Matrix View [2][3]:                Linear RAM View:
 | **Access 2D Element** | `arr[row][col]` |
 | **1D Array Function Parameter**| `void f(int arr[], int n)` or `void f(int *arr, int n)` |
 | **2D Array Function Parameter**| `void f(int arr[][cols], int rows)` |
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 7 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0007.jpg)
-
-> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
 
 ---
 
