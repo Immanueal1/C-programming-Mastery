@@ -50,6 +50,14 @@ This chapter covers the complete mechanics of C pointers: declaration and initia
 
 ---
 
+## 🎨 Visual Cheat Sheet
+
+![Chapter 6 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0006.jpg)
+
+> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
+
+---
+
 ## 📖 Complete Chapter Theory
 
 ### 1. What Is a Pointer?
@@ -613,14 +621,6 @@ VALUE (5)
                                      Variable Swapping                       Multiple Outputs
                                      (swap(&a, &b))                          (calc(..., &sum, &prod))
 ```
-
----
-
-## 🎨 Visual Cheat Sheet
-
-![Chapter 6 Cheat Sheet](./images/C%20programming%20Visual%20Notes_watermark_page-0006.jpg)
-
-> 💡 **Note**: The complete master visual notes PDF is available in the repository root: [`C-Programming-Visual-Notes.pdf`](../C-Programming-Visual-Notes.pdf).
 
 ---
 
