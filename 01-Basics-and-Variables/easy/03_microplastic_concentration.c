@@ -26,10 +26,16 @@ C-Programming-Mastery
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    // TODO:
-    // Solve this problem yourself.
+    float conc;
+
+    printf("Enter concentration: "); //This show what you have to display 
+    scanf("%f", &conc); //there after scanf scans what you type in and stores it in conc by Address-Of operator (&) in your scanf().
+
+    printf("Concentration: %.6f mg/L\n", conc); /*%f is the format specifier for a float.
+.6 means display exactly 6 digits after the decimal point.
+conc supplies the value to print.*/ 
 
     return 0;
 }
