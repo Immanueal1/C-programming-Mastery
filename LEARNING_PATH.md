@@ -36,7 +36,7 @@ Step 4: Build Portfolio Mini Project      ⇦  Step 3: Test Technical Interview 
 11. **11-Dynamic-Memory**: Heap allocation using `malloc()`, `calloc()`, `realloc()`, memory deallocation via `free()`, preventing memory leaks.
 
 ### Tier 4: Software Portfolio & Placement Readiness
-12. **12-Projects**: Building real-world CLI applications (Banking system, File encryption, Custom memory parser).
+12. **12-Projects**: 60 Real-World Practical Projects across 3 Tiers (20 Easy, 20 Medium, 20 Advanced including 5 Specialized Capstones and 1 Flagship Systems Controller).
 13. **13-DSA-Practice**: Low-level implementations of Singly/Doubly Linked Lists, Stacks, Queues, Binary Trees, Graphs, Sorting algorithms.
 14. **14-Interview-Prep**: TCS Digital & tech interview preparation (output prediction, debugging challenges, pointer puzzles, MCQs).
 

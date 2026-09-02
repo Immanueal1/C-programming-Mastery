@@ -200,10 +200,10 @@ C-Programming-Mastery/
 | **06** | [Pointers & Memory Addresses](06-Pointers/) | 🟢 Complete | Intermediate | [View Chapter 06](./06-Pointers/) |
 | **07** | [Arrays (1D & 2D)](07-Arrays/) | 🟢 Complete | Beginner-Intermediate | [View Chapter 07](./07-Arrays/) |
 | **08** | [Strings & Character Buffers](08-Strings/) | 🟢 Complete | Intermediate | [View Chapter 08](./08-Strings/) |
-| **09** | [Structures & Unions](09-Structures/) | 🟡 In Progress | Intermediate | In Progress |
-| **10** | [File Handling (I/O Streams)](10-File-IO/) | 🟡 In Progress | Intermediate | In Progress |
-| **11** | [Dynamic Memory Allocation](11-Dynamic-Memory/) | 🟡 In Progress | Advanced | In Progress |
-| **12** | [Practical Projects](12-Projects/) | 🟡 In Progress | All Levels | In Progress |
+| **09** | [Structures & Unions](09-Structures/) | 🟢 Complete | Intermediate | [View Chapter 09](./09-Structures/) |
+| **10** | [File Handling (I/O Streams)](10-File-IO/) | 🟢 Complete | Intermediate | [View Chapter 10](./10-File-IO/) |
+| **11** | [Dynamic Memory Allocation](11-Dynamic-Memory/) | 🟢 Complete | Advanced | [View Chapter 11](./11-Dynamic-Memory/) |
+| **12** | [Practical Projects](12-Projects/) | 🟢 Complete | All Levels | [View Chapter 12](./12-Projects/) |
 | **13** | [DSA Practice in C](13-DSA-Practice/) | ⚪ Planned | Advanced | Planned |
 | **14** | [Technical Interview Prep](14-Interview-Prep/) | ⚪ Planned | All Levels | Planned |
 
@@ -286,10 +286,10 @@ Track ongoing curriculum progress:
 - [x] **06. Pointers & Memory**
 - [x] **07. Arrays (1D & 2D)**
 - [x] **08. Strings & Character Buffers**
-- [ ] **09. Structures & Unions**
-- [ ] **10. File Handling (I/O Streams)**
-- [ ] **11. Dynamic Memory Allocation**
-- [ ] **12. Practical Projects**
+- [x] **09. Structures & Unions**
+- [x] **10. File Handling (I/O Streams)**
+- [x] **11. Dynamic Memory Allocation**
+- [x] **12. Practical Projects**
 - [ ] **13. Data Structures & Algorithms**
 - [ ] **14. Technical Interview Prep**
 

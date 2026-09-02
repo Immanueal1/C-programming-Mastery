@@ -32,11 +32,11 @@ timeline
 - [x] Chapter 08: Strings & Character Handling
 - [x] Repository Infrastructure & Governance Documentation
 
-### Phase 2: Advanced C Systems (🟡 Active Development)
-- [ ] Chapter 09: Structures, Unions & Typedefs
-- [ ] Chapter 10: File I/O & Streams
-- [ ] Chapter 11: Dynamic Memory Allocation (`malloc`, `calloc`, `realloc`, `free`)
-- [ ] Chapter 12: Real-World Practical Projects (Console Calculator, Bank System, File Encryptor)
+### Phase 2: Advanced C Systems (🟢 Completed)
+- [x] Chapter 09: Structures, Unions & Typedefs
+- [x] Chapter 10: File I/O & Streams
+- [x] Chapter 11: Dynamic Memory Allocation (`malloc`, `calloc`, `realloc`, `free`)
+- [x] Chapter 12: Real-World Practical Projects (60 Projects: 20 Easy, 20 Medium, 20 Advanced including Capstones)
 
 ### Phase 3: Data Structures & Placement Prep (⚪ Planned)
 - [ ] Chapter 13: Data Structures & Algorithms in C (Linked Lists, Stacks, Queues, Trees, Graphs, Sorting)
